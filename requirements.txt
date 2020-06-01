@@ -1,0 +1,12 @@
+Flask
+gunicorn
+numpy
+torch
+torchvision
+fastai
+flask-socketio
+librosa
+matplotlib
+
+
+

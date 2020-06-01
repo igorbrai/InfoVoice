@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Record your voice</h2>
+<h6>Record a 5 second clip and press analyse</h6>
+
+<div>
+    <button id="record" class="btn btn-success">Record</button>
+    <button id="stop" class="btn btn-danger" disabled>Stop</button>
+    <button id="play" class="btn btn-warning" disabled>Play</button>
+    <button id="save" class="btn btn-primary" disabled>Analyse</button>
+    <div class="loader" style="display:none;"></div>
+    <h2><div class="infoResp"></div></h2>
+    <h2><div class="sentiResp"></div></h2>
+
+
+</div>
+
+{% endblock %}
