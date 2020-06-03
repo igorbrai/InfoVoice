@@ -1,1 +1,2 @@
 path/models filter=lfs diff=lfs merge=lfs -text
+path/models/* filter=lfs diff=lfs merge=lfs -text
