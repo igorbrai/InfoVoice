@@ -30,8 +30,8 @@ app = Flask(__name__)
 
 
 path = Path("path")
-Infolearn = load_learner('path/models/','export.pkl')
-sentilearn = load_learner('path/models/','sentiment50epochs.pkl')
+Infolearn = load_learner('path/models/','Demograph.pkl')
+sentilearn = load_learner('path/models/','Emot.pkl')
 
 
 def info_model_predict(img_path):
